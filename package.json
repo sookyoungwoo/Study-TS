@@ -1,0 +1,23 @@
+{
+  "name": "study-ts",
+  "version": "1.0.0",
+  "description": "메인 룰 : typescript는 최종적으로 javascript로 변환된다.\r 브라우저는 무조건 자바스크립트만 읽음 :\r tsc컴파일러 : ts -> js로 코드 변환, 타입 검사",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sookyoungwoo/Study-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sookyoungwoo/Study-TS/issues"
+  },
+  "homepage": "https://github.com/sookyoungwoo/Study-TS#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
