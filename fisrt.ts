@@ -1,5 +1,7 @@
 const a: number = 5;
-const b: string = '5';
+const b: string = '5'; // string이라는 타입, 더 부정확
+const b2 = '5'; // b보다 이게 더 정확한 타입을 가짐, 5라는 타입
+// 무조건 타입 붙이기는 별로, 정확한 값이 있다면 그것 그대로
 const c: boolean = true;
 const d: undefined = undefined;
 const e: null = null;
