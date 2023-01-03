@@ -11,6 +11,18 @@ const f: any = true; // 모든 타입 가능, 아무 의미 없음
 const h: 5 = 5;
 const i:true = true; // 완전 값 고정
 
+// type Add = () => number;
+// interface Minus{}
+// Array<string> //js변환시 사라짐, 없이도 돌아가게 만들기
+
+// function add(x:number, y:number):number; 타입
+// function add(x,y){  선언
+//     return x+y;
+// }
+
+let aa = 123;
+aa = 'hello' as unknown as number; //js로 바꾸면 as 사라짐
+
 //function add( x:number, y:number ):number { return x+y } // return 값 타입선언은 매개변수 자리 바로 뒤
 //type Add = (x:number, y:number) => number;
 // type으로 타입을 선언하는 방식 타입 애일리어스(type alias)
