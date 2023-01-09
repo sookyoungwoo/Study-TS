@@ -23,6 +23,7 @@ const i:true = true; // 완전 값 고정
 let aa = 123;
 aa = 'hello' as unknown as number; //js로 바꾸면 as 사라짐
 
+
 //function add( x:number, y:number ):number { return x+y } // return 값 타입선언은 매개변수 자리 바로 뒤
 //type Add = (x:number, y:number) => number;
 // type으로 타입을 선언하는 방식 타입 애일리어스(type alias)
