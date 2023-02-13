@@ -37,4 +37,3 @@ const arr: string[] = ['123', '456']
 const arr2: number[] = [123,456]
 const arr3: [number, number, string] = [123,456,'hi'] // 개수 지정
 //const obj: { lat:number, lon:number } = { lat: 37.5, lon: 127.5 };
-//내다버린 ts
